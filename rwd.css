@@ -1,0 +1,29 @@
+  header {
+      color: rgb(194, 47, 72);
+    font: size 20px; ;
+    text-align: center;
+}
+button {
+    background-color: aqua;
+}
+   .btn:hover
+   { 
+       background-color: black;
+   }
+   
+   @media screen and (max-width: 300px) {
+    body {
+      background-color: rgb(158, 7, 7);
+      width:100;
+    }
+  }
+  @media  screen and (min-width: 301px) and (max-width: 767px) and (orientation : landscape) {
+    body {
+      background-color: lightgreen;
+    }
+  }
+  @media  screen and (min-width: 768px) {
+    body {
+      background-color: lightblue;
+    }
+  }
